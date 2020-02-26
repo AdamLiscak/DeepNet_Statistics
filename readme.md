@@ -36,6 +36,17 @@ the values collected by my measurement exceed 50 mb, the json file itself has 72
 
 could have just gone with a database 
 
+### indices of models
+tests have been done on the following neural networks:
+each test takes 50 000 values, hence every neural network can be seen as a block of 
+50 000 ids 
+
+1 squeezenet_tflite
+50001 mobilenetV2_tflite
+100001 mobilenetv1_tfite
+150001 nasnet_mobile_tflite
+200001 mobilenetv1_tfite
+
 
 
 
